@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="da2c9ca9837244da95ed333c12d3af96" Name="Diagram1">
+        <EntityTypeShape EntityType="ERPModel.ACADEMIC_DETAILS" Width="1.5" PointX="9.75" PointY="23.25" />
+        <EntityTypeShape EntityType="ERPModel.ACCESS_CONTROL" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ERPModel.ADMISSION_STATUS" Width="1.5" PointX="9.75" PointY="29.5" />
+        <EntityTypeShape EntityType="ERPModel.APPLICANT" Width="1.5" PointX="12" PointY="26.625" />
+        <EntityTypeShape EntityType="ERPModel.APPLICANT_SUBJECT" Width="1.5" PointX="16.5" PointY="29.5" />
+        <EntityTypeShape EntityType="ERPModel.BUNK" Width="1.5" PointX="19.25" PointY="42.125" />
+        <EntityTypeShape EntityType="ERPModel.BUNK_TYPE" Width="1.5" PointX="17" PointY="46.375" />
+        <EntityTypeShape EntityType="ERPModel.BUS_DESCRIPTION" Width="1.5" PointX="9.75" PointY="32" />
+        <EntityTypeShape EntityType="ERPModel.CENTER" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ERPModel.CLASS" Width="1.5" PointX="0.75" PointY="2.75" />
+        <EntityTypeShape EntityType="ERPModel.CONTINUOUS_EDUCATION" Width="1.5" PointX="2.75" PointY="2.75" />
+        <EntityTypeShape EntityType="ERPModel.COUNTRY" Width="1.5" PointX="0.75" PointY="21.375" />
+        <EntityTypeShape EntityType="ERPModel.COURSES" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ERPModel.DEPARTMENT" Width="1.5" PointX="7.5" PointY="9.625" />
+        <EntityTypeShape EntityType="ERPModel.EMPLOYMENT_STATUS" Width="1.5" PointX="4.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ERPModel.ENTRY_TYPE" Width="1.5" PointX="9.75" PointY="10.625" />
+        <EntityTypeShape EntityType="ERPModel.EXAM" Width="1.5" PointX="14.25" PointY="29.75" />
+        <EntityTypeShape EntityType="ERPModel.EXAM_TYPE" Width="1.5" PointX="12" PointY="35.125" />
+        <EntityTypeShape EntityType="ERPModel.EXAM_YEAR" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="ERPModel.FACULTY" Width="1.5" PointX="5.25" PointY="9.875" />
+        <EntityTypeShape EntityType="ERPModel.FEES" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ERPModel.GENDER" Width="1.5" PointX="5.25" PointY="26.125" />
+        <EntityTypeShape EntityType="ERPModel.GRADE" Width="1.5" PointX="14.25" PointY="12.75" />
+        <EntityTypeShape EntityType="ERPModel.HOSTEL" Width="1.5" PointX="14.75" PointY="38.75" />
+        <EntityTypeShape EntityType="ERPModel.HOSTEL_BLOCK" Width="1.5" PointX="14.75" PointY="43.125" />
+        <EntityTypeShape EntityType="ERPModel.HOSTEL_PROGRAMME_ACCESS" Width="1.5" PointX="20" PointY="45.875" />
+        <EntityTypeShape EntityType="ERPModel.HOSTEL_TYPE" Width="1.5" PointX="12.5" PointY="39.75" />
+        <EntityTypeShape EntityType="ERPModel.INCOMPLETE_APPLICATION" Width="1.5" PointX="15" PointY="26.125" />
+        <EntityTypeShape EntityType="ERPModel.LEVEL" Width="1.5" PointX="9.75" PointY="46.875" />
+        <EntityTypeShape EntityType="ERPModel.LGA" Width="1.5" PointX="5.25" PointY="22.75" />
+        <EntityTypeShape EntityType="ERPModel.MARITAL_STATUS" Width="1.5" PointX="5.25" PointY="30.875" />
+        <EntityTypeShape EntityType="ERPModel.MODULE" Width="1.5" PointX="10.5" PointY="14.75" />
+        <EntityTypeShape EntityType="ERPModel.NEXT_KIN_DETAILS" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ERPModel.PAGE" Width="1.5" PointX="13.5" PointY="15.875" />
+        <EntityTypeShape EntityType="ERPModel.PAGE_ACTION" Width="1.5" PointX="15.75" PointY="15.875" />
+        <EntityTypeShape EntityType="ERPModel.PARENT_DETAILS" Width="1.5" PointX="9.75" PointY="19" />
+        <EntityTypeShape EntityType="ERPModel.PAYMENT_TYPE" Width="1.5" PointX="2.75" PointY="6.75" />
+        <EntityTypeShape EntityType="ERPModel.PERSON" Width="1.5" PointX="7.5" PointY="19.75" />
+        <EntityTypeShape EntityType="ERPModel.PERSON_TYPE" Width="1.5" PointX="5.25" PointY="19.375" />
+        <EntityTypeShape EntityType="ERPModel.PROGRAMME" Width="1.5" PointX="9.75" PointY="50" />
+        <EntityTypeShape EntityType="ERPModel.RELATIONSHIP" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ERPModel.ROLE" Width="1.5" PointX="12.75" PointY="19" />
+        <EntityTypeShape EntityType="ERPModel.ROLE_PAGE_RIGHT" Width="1.5" PointX="18.75" PointY="16.5" />
+        <EntityTypeShape EntityType="ERPModel.ROOM" Width="1.5" PointX="17" PointY="40.625" />
+        <EntityTypeShape EntityType="ERPModel.SCHOOL" Width="1.5" PointX="8.25" PointY="14.125" />
+        <EntityTypeShape EntityType="ERPModel.SCHOOL_TYPE" Width="1.5" PointX="6" PointY="15" />
+        <EntityTypeShape EntityType="ERPModel.SCORE" Width="1.5" PointX="8.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ERPModel.SEMESTER" Width="1.5" PointX="9.75" PointY="43" />
+        <EntityTypeShape EntityType="ERPModel.SESSION" Width="1.5" PointX="9.75" PointY="39.375" />
+        <EntityTypeShape EntityType="ERPModel.SPONSOR_DETAILS" Width="1.5" PointX="9.75" PointY="35" />
+        <EntityTypeShape EntityType="ERPModel.STATE" Width="1.5" PointX="3" PointY="24.375" />
+        <EntityTypeShape EntityType="ERPModel.STUDENT" Width="1.5" PointX="19.25" PointY="26.5" />
+        <EntityTypeShape EntityType="ERPModel.STUDENT_HOSTEL_ROOM_BUNK" Width="1.5" PointX="21.5" PointY="22.875" />
+        <EntityTypeShape EntityType="ERPModel.STUDENT_SESSION_DETAIL" Width="1.5" PointX="21.5" PointY="29.125" />
+        <EntityTypeShape EntityType="ERPModel.SUBJECT" Width="1.5" PointX="14.25" PointY="10.125" />
+        <EntityTypeShape EntityType="ERPModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="6.75" />
+        <EntityTypeShape EntityType="ERPModel.TRIBE" Width="1.5" PointX="5.25" PointY="28.5" />
+        <EntityTypeShape EntityType="ERPModel.USER_MODULE" Width="1.5" PointX="12.75" PointY="22.625" />
+        <EntityTypeShape EntityType="ERPModel.USER_MODULE_ROLE" Width="1.5" PointX="15" PointY="22.625" />
+        <EntityTypeShape EntityType="ERPModel.USER_PAGE_ACTION" Width="1.5" PointX="18" PointY="22.875" />
+        <AssociationConnector Association="ERPModel.FK_ACADEMIC_DETAILS_DEPARTMENT" />
+        <AssociationConnector Association="ERPModel.FK_ACADEMIC_DETAILS_FACULTY" />
+        <AssociationConnector Association="ERPModel.FK_ACADEMIC_DETAILS_JAMB" />
+        <AssociationConnector Association="ERPModel.FK_ACADEMIC_DETAILS_LEVEL" />
+        <AssociationConnector Association="ERPModel.FK_ACADEMIC_DETAILS_PERSON" />
+        <AssociationConnector Association="ERPModel.FK_ACADEMIC_DETAILS_PROGRAMME" />
+        <AssociationConnector Association="ERPModel.FK_ADMITTED_APPLICANT_ACADEMIC_DETAILS" />
+        <AssociationConnector Association="ERPModel.FK_INCOMPLETE_APPLICATION_ACADEMIC_DETAILS" />
+        <AssociationConnector Association="ERPModel.FK_ADMITTED_APPLICANT_ADMISSION_STATUS" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_ENTRY_TYPE" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_LEVEL" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_PERSON2" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_PERSON3" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_PROGRAMME" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_PROGRAMME1" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_SCHOOL" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_SEMESTER" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_SESSION" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_SUBJECT_APPLICANT" />
+        <AssociationConnector Association="ERPModel.FK_EXAM_APPLICANT" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_APPLICANT" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_SUBJECT_EXAM" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_SUBJECT_GRADE" />
+        <AssociationConnector Association="ERPModel.FK_APPLICANT_SUBJECT_SUBJECT" />
+        <AssociationConnector Association="ERPModel.FK_JAMB_SUBJECT" />
+        <AssociationConnector Association="ERPModel.FK_BUNK_BUNK_TYPE" />
+        <AssociationConnector Association="ERPModel.FK_BUNK_ROOM" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_HOSTEL_ROOM_BUNK_BUNK" />
+        <AssociationConnector Association="ERPModel.FK_BUS_DESCRIPTION_PERSON" />
+        <AssociationConnector Association="ERPModel.FK_LGA_COUNTRY" />
+        <AssociationConnector Association="ERPModel.FK_PERSON_COUNTRY" />
+        <AssociationConnector Association="ERPModel.FK_STATE_COUNTRY" />
+        <AssociationConnector Association="ERPModel.FK_DEPARTMENT_FACULTY" />
+        <AssociationConnector Association="ERPModel.FK_DEPARTMENT_SCHOOL" />
+        <AssociationConnector Association="ERPModel.FK_PROGRAMME_DEPARTMENT" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_DEPARTMENT" />
+        <AssociationConnector Association="ERPModel.FK_EXAM_EXAM_TYPE" />
+        <AssociationConnector Association="ERPModel.FK_FACULTY_SCHOOL" />
+        <AssociationConnector Association="ERPModel.FK_PERSON_GENDER" />
+        <AssociationConnector Association="ERPModel.FK_HOSTEL_BLOCK_HOSTEL" />
+        <AssociationConnector Association="ERPModel.FK_HOSTEL_HOSTEL_TYPE" />
+        <AssociationConnector Association="ERPModel.FK_HOSTEL_MODULE" />
+        <AssociationConnector Association="ERPModel.FK_HOSTEL_PROGRAMME_ACCESS_HOSTEL" />
+        <AssociationConnector Association="ERPModel.FK_ROOM_HOSTEL" />
+        <AssociationConnector Association="ERPModel.FK_ROOM_HOSTEL_BLOCK" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_HOSTEL_ROOM_BUNK_HOSTEL_BLOCK" />
+        <AssociationConnector Association="ERPModel.FK_HOSTEL_PROGRAMME_ACCESS__PROGRAMME" />
+        <AssociationConnector Association="ERPModel.FK_HOSTEL_PROGRAMME_ACCESS_SEMESTER" />
+        <AssociationConnector Association="ERPModel.FK_HOSTEL_PROGRAMME_ACCESS_SESSION" />
+        <AssociationConnector Association="ERPModel.FK_INCOMPLETE_APPLICATION_PERSON" />
+        <AssociationConnector Association="ERPModel.FK_LEVEL_SCHOOL" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_SESSION_DETAIL_LEVEL" />
+        <AssociationConnector Association="ERPModel.FK_LGA_STATE" />
+        <AssociationConnector Association="ERPModel.FK_PERSON_LGA" />
+        <AssociationConnector Association="ERPModel.FK_PERSON_MARITAL_STATUS" />
+        <AssociationConnector Association="ERPModel.FK_MODULE_SCHOOL" />
+        <AssociationConnector Association="ERPModel.FK_ROLE_PAGE_RIGHT_MODULE" />
+        <AssociationConnector Association="ERPModel.FK_USER_MODULE_MODULE" />
+        <AssociationConnector Association="ERPModel.FK_PAGE_ACTION_PAGE" />
+        <AssociationConnector Association="ERPModel.FK_ROLE_PAGE_RIGHT_PAGE" />
+        <AssociationConnector Association="ERPModel.FK_USER_PAGE_ACTION_PAGE_ACTION" />
+        <AssociationConnector Association="ERPModel.FK_PARENT_DETAILS_PERSON" />
+        <AssociationConnector Association="ERPModel.FK_PERSON_PERSON_TYPE" />
+        <AssociationConnector Association="ERPModel.FK_PERSON_STATE" />
+        <AssociationConnector Association="ERPModel.FK_PERSON_TRIBE" />
+        <AssociationConnector Association="ERPModel.FK_SPONSOR_DETAILS_PERSON" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_HOSTEL_ROOM_BUNK_PERSON" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_PERSON" />
+        <AssociationConnector Association="ERPModel.FK_USER_MODULE_PERSON" />
+        <AssociationConnector Association="ERPModel.FK_USER_MODULE_ROLE_PERSON" />
+        <AssociationConnector Association="ERPModel.FK_PROGRAMME_SCHOOL" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_PROGRAMME" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_PROGRAMME1" />
+        <AssociationConnector Association="ERPModel.FK_ROLE_PAGE_RIGHT_ROLE" />
+        <AssociationConnector Association="ERPModel.FK_USER_MODULE_ROLE_ROLE" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_HOSTEL_ROOM_BUNK_ROOM" />
+        <AssociationConnector Association="ERPModel.FK_SCHOOL_SCHOOL_TYPE" />
+        <AssociationConnector Association="ERPModel.FK_SEMESTER_SCHOOL" />
+        <AssociationConnector Association="ERPModel.FK_SESSION_SCHOOL" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_SCHOOL" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_HOSTEL_ROOM_BUNK_SEMESTER" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_SESSION_DETAIL_SEMESTER" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_HOSTEL_ROOM_BUNK_SESSION" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_SESSION_DETAIL_SESSION" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_HOSTEL_ROOM_BUNK_STUDENT" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_SESSION_DETAIL_STUDENT" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_SESSION_DETAIL_STUDENT1" />
+        <AssociationConnector Association="ERPModel.FK_STUDENT_STUDENT_SESSION_DETAIL" />
+        <AssociationConnector Association="ERPModel.FK_RIGHT_USER_MODULE" />
+        <AssociationConnector Association="ERPModel.FK_USER_PAGE_ACTION_USER_MODULE" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/fontawesome")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/CommonFile")
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("Scripts", false/*required*/)
+    @RenderSection("Styles", false/*required*/)
+</head>
+<body onload="pageLoad()">
+
+    @*<section class="header">
+        Godfrey Okoye University Community
+    </section>
+
+    <section class="menuTabs">
+        Computer Buildng ICT
+    </section>
+
+    <div>Godfrey Okoye University Community</div>*@
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
